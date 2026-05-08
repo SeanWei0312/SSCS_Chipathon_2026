@@ -12,41 +12,41 @@ This document outlines the official schedule for the SSCS Chipathon 2026 event.
 ### Phase 1: Setup and Introduction
 | Week | Date | Event | Track Details | 🔴 Recording | 📊 Slides | 📄 Report |
 |------|------|-------|---------------|:-----------:|:--------:|:------:|
-| Week 19 | May 8 | **Kick-off Meeting** 🎓 | Introduction to chipathon phases (B. Murmann & M. Saligane) | [Watch (TBD)]() | [View (TBD)]() | [Submit]() |
-| Week 20 | May 15 | **Tool Installation** 🎓 | • Tutorial on xschem in GF from schematic to Layout & Spice Simulation (Saroj) <br> • Charlib (James) <br> • DRC/LVS (Mitch) <br> • ORFS Tutorial (Gaurav) <br> • Librelane Tutorial (Mauricio) <br> • overview of MEMS sensors (Camilo) | [Watch (TBD)]() | [View (TBD)]() | [Submit]() |
-| Week 21 | May 22 | **Tutorial Sessions** 🎓 | • MOSbius Overview (Peter)<br>• gLayout [Tutorial 1 FVF](https://github.com/ReaLLMASIC/gLayout/blob/main/tutorial/glayout_tutorial_FVF_part1.ipynb) (Luighi/Sapta) <br>• Analog devices for RF applications (Sadayuki) | [Watch (TBD)]() | [View (TBD)]() | [Submit]() |
-| Week 22 | May 29 | **Tutorial Sessions** 🎓 | • Hands-on Tutorial on MOSbius (Juan)<br>• gLayout [Tutorial 2 OTA]() ( (Luighi/Sapta))<br>• Full custom analog design flow (Vipul) | [Watch (TBD)]() | [View (TBD)]() | [Submit]() |
+| Week 19 | May 8 | **Kick-off Meeting** 🎓 | • Explain the different phases of Chipathon (Mehdi Saligane) | TBA | TBA | TBA |
+| Week 20 | May 15 | **Tool Installation** 🎓 | • Tutorial on xschem in GF from schematic to Layout & Spice Simulation (Saroj) <br> • Charlib (James) <br> • DRC/LVS (Mitch) <br> • ORFS Tutorial (Gaurav) <br> • Librelane Tutorial (Mauricio) <br> • Overview of MEMS sensors (Camilo) |  |  |  |
+| Week 21 | May 22 | **Tutorial Sessions** 🎓 | • MOSbius Overview (Peter)<br>• gLayout [Tutorial 1 FVF](https://github.com/ReaLLMASIC/gLayout/blob/main/tutorial/glayout_tutorial_FVF_part1.ipynb) (Luighi/Sapta) <br>• Analog devices for RF applications (Sadayuki) |  |  |  |
+| Week 22 | May 29 | **Tutorial Sessions** 🎓 | • Hands-on Tutorial on MOSbius (Juan)<br>• gLayout [Tutorial 2 OTA]() (Luighi/Sapta)<br>• Full custom analog design flow (Vipul) |  |  |  |
 
 ### Phase 2: Team Formation and Project Planning
 | Week | Date | Event | Details | 🔴 Recording | 📊 Slides | 📄 Report |
 |------|------|-------|----------|:-----------:|:--------:|:------:|
 | Week 23 | June 5 | **Team Formation Deadline** |  |  |
-| Week 24 | June 12 | **Project Proposal Review** 👥 | - | [Watch (TBD)]() | [View (TBD)]() | [Submit]() |
-| Week 25 | June 19 | **Advanced Topics** 🎓 | • Systematic Design of Analog CMOS Circuits (Boris) | [Watch (TBD)]() | [View (TBD)]() | [Submit]() |
-| Week 26 | June 26 | **Analog Design Ideas** 🎓 | • Introduction to CACE (Tim) <br>• Tutorial: Schematic Database & Simulations (Peter)| [Watch (TBD)]() | [View (TBD)]() | [Submit]() |
+| Week 24 | June 12 | **Project Proposal Review** 👥 | - |  |  |  |
+| Week 25 | June 19 | **Advanced Topics** 🎓 | • Systematic Design of Analog CMOS Circuits (Boris) |  |  |  |
+| Week 26 | June 26 | **Analog Design Ideas** 🎓 | • Introduction to CACE (Tim) <br>• Tutorial: Schematic Database & Simulations (Peter)|  |  |  |
 
 
 ### Phase 3: Design and Simulation
 | Week | Date | Event | Review Focus | 🔴 Recording | 📊 Slides | 📄 Report |
 |------|------|-------|--------------|:-----------:|:--------:|:------:|
-| Week 27 | July 3 | **Schematic Review** 👥  | All Tracks | [Watch (TBD)]() | [View (TBD)]() | [Submit]() |
-| Week 28 | July 10 |  **Simulation Review (blocks)** 👥 | All Tracks | [Watch (TBD)]() | [View (TBD)]() | [Submit]() |
-| Week 29 | July 17 | **Simulation Review (top level)** 👥 | - | [Watch (TBD)]() | [View (TBD)]() | [Submit]() |
+| Week 27 | July 3 | **Schematic Review** 👥  | All Tracks |  |  |  |
+| Week 28 | July 10 |  **Simulation Review (blocks)** 👥 | All Tracks |  |  |  |
+| Week 29 | July 17 | **Simulation Review (top level)** 👥 | - |  |  |  |
 |  | | **READiness Check & Go/No-go Decision** |  |  |  |  |
 
 ### Phase 4: Layout and Verification
 | Week | Date | Event | Details | 🔴 Recording | 📊 Slides | 📄 Report |
 |------|------|-------|----------|:-----------:|:--------:|:------:|
-| Week 30 | July 24 | **Layout Tutorial** 🎓 | DRC, LVS, PEX (Mitch, Juan) | [Watch (TBD)]() | [View (TBD)]() | [Submit]() |
+| Week 30 | July 24 | **Layout Tutorial** 🎓 | DRC, LVS, PEX (Mitch, Juan) |  |  |  |
 | Week 31 | July 31 | **DRC Dry-run** | GDS to Channel Partner |  |  |  |  |
-| Week 32 | Sept. 7 | **Integration Tutorial** 🎓 | Layout, Top level, ESD, padframe, packaging (Tim, Juan) | [Watch (TBD)]() | [View (TBD)]() | [Submit]() |
-| Week 33 | Sept. 14 | **Layout Review (blocks)** 👥 | - | [Watch (TBD)]() | [View (TBD)]() | [Submit]() |
-| Week 34 | Sept. 21 | **Layout Review (top level)** 👥 | - | [Watch (TBD)]() | [View (TBD)]() | [Submit]() |
+| Week 32 | Aug. 7 | **Integration Tutorial** 🎓 | Layout, Top level, ESD, padframe, packaging (Tim, Juan) |  |  |  |
+| Week 33 | Aug. 14 | **Layout Review (blocks)** 👥 | - |  |  |  |
+| Week 34 | Aug. 21 | **Layout Review (top level)** 👥 | - |  |  |  |
 |  | | **DRC Dry-run GDS to Channel Partner**  | |  |  |  |
-| Week 35 | Sept. 28 | **Verification** 👥 | Secondary ESD (Juan/Luighi) | [Watch (TBD)]() | [View (TBD)]() | [Submit]() |
-|  |     | **Final Chip Review** 👥 | - | [Watch (TBD)]() | [View (TBD)]() | [Submit]() |
+| Week 35 | Aug. 28 | **Verification** 👥 | Secondary ESD (Juan/Luighi) |  |  |  |
+|  |     | **Final Chip Review** 👥 | - |  |  |  |
 |  | TBD | **Final Submission** | DRC-clean GDS to Channel Partner |  |  |  |  |
-|  | TBD | **Post-mortem** 👥 | Project retrospective | [Watch (TBD)]() | [View (TBD)]() |  |
+|  | TBD | **Post-mortem** 👥 | Project retrospective |  |  |  |
 
 ### Phase 5: Manufacturing and Testing
 | Date | Event | 🔴 Recording | 📊 Slides | 📄 Report |
