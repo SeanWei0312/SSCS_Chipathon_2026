@@ -27,6 +27,10 @@ process.
 - :clapper: [Environment setup, Part 2](https://drive.google.com/file/d/100nhUwkqkQ4u5Csk399gOO5OgnYPentf/view?usp=drive_link): Demo 
 - :clapper: [Environment setup, Part 3](https://drive.google.com/file/d/1KhfwmIuLM5FjjnFnWFwCYfxd0WJdO2WD/view?usp=drive_link): Q&A
 
+The slides used alongside the videos are here:
+
+- :bar_chart: [Environment_setup](https://docs.google.com/presentation/d/e/2PACX-1vT8XybzYWQqSTboEH1udOfj2LSpn-lkMgQHm4f-wMGISH3S9KbROQs2LmMsBGW6Y194ylUcF9_wdXbx/pub)
+
 ## gLayout
 
 ### A PDK-agnostic layout automation framework for analog circuit design.
@@ -50,6 +54,21 @@ Key features:
   - Support for standard components
   - Custom component definitions
 - Integration with Klayout for visualization and verification
+
+## gLayout introduction
+
+Please, check the following videos regarding the gLayout framework and the
+tutorial to create a cell from scratch (FVF tutorial)
+
+- :clapper: [gLayout_introduction, Part 1](https://drive.google.com/file/d/1sJSCSv0T7r9nka_SQAZxToDHD5SLjenr/view?usp=sharing): Introduction to gLayout Framework
+- :clapper: [gLayout_introduction, Part 2](https://drive.google.com/file/d/1mE7ArqKS4Zq414yuNh8bLSt22_SCRQk4/view?usp=sharing): Basic example - current mirror
+- :clapper: [gLayout_introduction, Part 3](https://drive.google.com/file/d/1QXKJUZVjU50XMGrF6MBC5AbXlHe_aoEV/view?usp=sharing): Basic example - FVF generator
+- :clapper: [gLayout_introduction, Part 4](https://drive.google.com/file/d/13LRK12KrqT6uyCcQC6O7biZ2cl6yVD69/view?usp=sharing): FVF tutorial, creating a cell from scratch
+
+
+The slides used alongside the videos are here:
+
+- :bar_chart: [gLayout_introduction](https://docs.google.com/presentation/d/e/2PACX-1vShUolgExqu0rq-M0L9Y4uuYnWmuTPAg7R7E6Y9oLlg0vCBAyGUQjGL6kjTHvRW36nkzrMMOOOFz7_k/pub)
 
 ## Citation
 
