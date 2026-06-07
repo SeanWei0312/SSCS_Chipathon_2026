@@ -1,4 +1,4 @@
-\# Cosimulation tutorial for Mixed-Signal simulations
+# Cosimulation tutorial for Mixed-Signal simulations
 
 
 
