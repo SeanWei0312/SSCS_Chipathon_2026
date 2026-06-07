@@ -7,7 +7,7 @@ The goal is to perform a co-simulation between a 4-bit counter and the Verilog, 
 The block diagram of the co-simulation system is presented below.
 
 <p align="center">
-   <img src="./img/Block_Diagram.png" width="600" />
+   <img src="./img/Block_diagram.png" width="600" />
 </p>  
 
 ## Compiling and validating the Verilog code.
@@ -17,13 +17,13 @@ The block diagram of the co-simulation system is presented below.
 Follows the block diagram of the circuit that instantiates a Verilog view into a symbol and the schematic of a current mirror.
 
 <p align="center">
-   <img src="./img/Verilog1.png" width="600" />
-</p>  
+   <img src="./img/verilog1.png" width="600" />
+</p> 
  
 When associating the Verilog code  to a symbol in Xschem, and after copiling the code for running the simulation with gf180mcu transistors, an error appears because the ngspice was compiled within the IIC-OSIC container for Chipathon. The two libraries that bridge the gap between ngspice and Icarus Verilog (ivlng.so and ivlng.vpi, both in /foss/tools/ngspice/lib/ngspice/) have all their symbols marked as local and should be as global.
 
 <p align="center">
-   <img src="./img/Verilog2.png" width="600" />
+   <img src="./img/verilog2.png" width="600" />
 </p> 
 
 We are working to solve this issue in the Docker container. We will keep you posted when this issue will be solved.
