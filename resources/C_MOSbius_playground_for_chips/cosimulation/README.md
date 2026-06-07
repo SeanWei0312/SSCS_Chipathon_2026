@@ -12,7 +12,14 @@ The block diagram of the co-simulation system is presented below.
 
 ## Compiling and validating the Verilog code.
 
-All the material associated with this part of the flow is in the [`schematic_view/`](schematic_view/) folder.
+All the material associated with this part of the flow is in the [`verilog_verification/`](verilog_verification/) folder.
+
+The command used for compiling is: **iverilog -o counter_tb counter.v counter_tb.v**
+
+The command used for running the simulation is: **./counter_tb**
+
+Finall, for checking the results, use the following command: **gtkwave counter_tb.vcd**
+
 
 ## Verilog view
 
@@ -33,6 +40,9 @@ We are working to solve this issue in the Docker container. We will keep you pos
 > 🚧 \*\*Under Construction\*\*
 
 ## Schematic view
+
+All the material associated with this part of the flow is in the [`schematic_view/`](schematic_view/) folder.
+
 
 ## PEX view
 
