@@ -2,7 +2,7 @@
 
 This document outlines the official schedule for the SSCS Chipathon 2026 event.
 <br>All dates and activities are subject to confirmation.
-<br>This is the [weekly zoom meeting link](https://us06web.zoom.us/j/87694732928?pwd=gjUePaAEKDJB2G3f2d4iPIqyYe0qBx.1).
+<br>This is the [weekly zoom meeting link](https://us06web.zoom.us/j/89177126329?pwd=Lvsmshqc4vAGkfn6XPovcHiRzPqxTn.1).
 <br>Please follow the Chipathon Discord Server [Join_server](https://discord.gg/tvZcQzvt7q) for up-to-date information and **announcements**. 
 <br>All participants should complete a report by Wednesday of **each** week.
 
@@ -19,7 +19,7 @@ This document outlines the official schedule for the SSCS Chipathon 2026 event.
 ### Phase 2: Team Formation and Project Planning
 | Week | Date | Event | Details | 🔴 Recording | 📊 Slides | 📄 Report |
 |------|------|-------|----------|:-----------:|:--------:|:------:|
-| Week 23 | June 5 | **Team Formation Deadline**| • Chip design with AI/LLM (Mehdi) <br>• Hands-on Tutorial on MOSbius (Juan)| [Watch](https://us06web.zoom.us/rec/share/6HKiL_V6Q2qIHlUATzowm-JPvQfVBzhtgoYucraFsrqWDz5I0N-DnuCeEoQ5sW3D.raKGLGNCKkB7via-) <br> Passcode: &!Lusy9l | [View](https://docs.google.com/presentation/d/e/2PACX-1vQI_AdDKBr6G66_IMallotI_idrNMwKabdypLI7G8iEzwwMeTTeQIN3yLcrxRuJxQ/pub) | [Submit](https://forms.gle/6839F1Jppxx42yw5A) |
+| Week 23 | June 5 | **Team Formation Deadline**| • Chip design with AI/LLM (Mehdi) <br>• Hands-on Tutorial on MOSbius (Juan)| [Watch]( https://us06web.zoom.us/rec/share/lz8rKOhmYU-1TsQuje8IZh32oWiNp8pjVdyQ4QdtBKiGaN21z6OqeIRHgq0hYxV8.zMbz-0kW_5zsKOk8) | [View](https://docs.google.com/presentation/d/e/2PACX-1vQI_AdDKBr6G66_IMallotI_idrNMwKabdypLI7G8iEzwwMeTTeQIN3yLcrxRuJxQ/pub) | [Submit](https://forms.gle/6839F1Jppxx42yw5A) |
 | Week 24 | June 12 | **Project Proposal Review** 👥 | - |  |  |  |
 | Week 25 | June 19 | **Advanced Topics** 🎓 | • Systematic Design of Analog CMOS Circuits (Boris) |  |  |  |
 | Week 26 | June 26 | **Analog Design Ideas** 🎓 | • Tutorial: Schematic Database & Simulations (Peter)<br>• Overview of MEMS sensors (Camilo) <br>• Introduction to CACE (Leo)<br>• Analog devices for RF applications (Sadayuki) <br> (tentative)|  |  |  |
