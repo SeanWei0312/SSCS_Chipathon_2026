@@ -1,9 +1,9 @@
-# IEEE SSCS Chipathon2025: Integration Track Documentation 
+# IEEE SSCS Chipathon2026: Integration Track Documentation 
 This repository contains the primary documentation related to the Integration track for the [IEEE SSCS Chipathon 2026](https://github.com/sscs-ose/sscs-chipathon-2026/)
 
 The design manual of the GlobalFoundries GF180MCU PDK can be found [here](https://gf180mcu-pdk.readthedocs.io/en/latest/physical_verification/design_manual/Design_Manual.html#design-manual).
 
-## PDK main information for Chipathon 2025
+## PDK main information for Chipathon 2026
 
 The [process](https://gf180mcu-pdk.readthedocs.io/en/latest/physical_verification/design_manual/drm_02.html) used for this Chipathon is defined as:
 | Process | Operating Voltages |
@@ -66,6 +66,7 @@ Finally, it is important to highlight the following information:
 - The main voltage associated with all the I/O pads is 5V.
 - The gf180mcu D flavor allows to use both 3.3V and 5V/6V devices.
 - Since there are no I/O pads at 3.3V, it is possible to use the 5V I/O pads at 3.3V but there is going to be an impact on the speed.
+- When submitting the chips for fabrication, the Chipathon team elects die thinning to 250um after fabrication with GF to facilitate packaging.
 
 ## Chipathon2026 Padring
 
