@@ -26,7 +26,21 @@ export DESIGNS="/Users/sean/Documents/GitHub"
 ./start_chipathon_vnc.sh
 ```
 
-Open:
+### Open the Docker Desktop
+
+TigerVNC Viewer:
+
+```text
+localhost:5901
+```
+
+Password:
+
+```text
+abc123
+```
+
+Web browser / noVNC:
 
 ```text
 http://localhost:80/?password=abc123
@@ -61,4 +75,3 @@ docker rm -f $(docker ps -aq)
 ```
 
 This deletes all Docker containers. It does not delete files saved in your GitHub project folder.
-
