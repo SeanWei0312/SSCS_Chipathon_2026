@@ -1,6 +1,10 @@
-# SSCS Chipathon 2026 Docker Cheat Sheet for Mac
+# SSCS Chipathon 2026 Docker Instructions
 
-## Project Location
+This document explains how to use the SSCS Chipathon 2026 Docker environment.
+
+## Mac Instructions
+
+### Project Location
 
 On your Mac, the main project folder is:
 
@@ -16,7 +20,7 @@ Inside Docker, the same folder appears as:
 
 Files saved under `/foss/designs/SSCS_Chipathon_2026` are saved directly on your Mac in `~/eda/designs/SSCS_Chipathon_2026`.
 
-## Start Chipathon Docker
+### Start Chipathon Docker
 
 Run:
 
@@ -31,7 +35,7 @@ Then open this in your browser:
 http://localhost:80/?password=abc123
 ```
 
-## Check Running Containers
+### Check Running Containers
 
 Run:
 
@@ -41,7 +45,7 @@ docker ps
 
 This shows only currently running containers.
 
-## Check All Containers
+### Check All Containers
 
 Run:
 
@@ -51,7 +55,7 @@ docker ps -a
 
 This shows both running and stopped containers.
 
-## Stop Chipathon Docker
+### Stop Chipathon Docker
 
 Run:
 
@@ -61,7 +65,7 @@ docker stop iic-osic-tools_chipathon_xvnc_uid_501
 
 Closing the browser does not stop Docker. The browser is only the VNC viewer.
 
-## Stop All Running Containers
+### Stop All Running Containers
 
 Run:
 
@@ -71,7 +75,7 @@ docker stop $(docker ps -q)
 
 Use this only if you want to stop all running Docker containers.
 
-## Remove All Stopped Containers
+### Remove All Stopped Containers
 
 Run:
 
@@ -91,7 +95,7 @@ This removes stopped containers. It does not delete project files stored in:
 ~/eda/designs/SSCS_Chipathon_2026
 ```
 
-## GitHub Sync Reminder
+### GitHub Sync Reminder
 
 Docker saves files to the Mac folder, but it does not automatically push to GitHub.
 
@@ -105,10 +109,13 @@ git commit -m "update chipathon design"
 git push
 ```
 
-## Daily Workflow
+### Daily Workflow
 
 1. Start Docker with `start_chipathon_vnc.sh`.
 2. Work inside `/foss/designs/SSCS_Chipathon_2026`.
 3. Stop Docker with `docker stop`.
 4. Commit and push changes to GitHub.
 
+## Windows Instructions
+
+Windows instructions will be added later.
