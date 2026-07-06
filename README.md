@@ -2,6 +2,12 @@
 
 This repository contains the working files for my SSCS Chipathon 2026 project. It is organized around the official Chipathon files, IC design, PCB design, simulation outputs, measurement results, Docker instructions, and project documentation.
 
+## Upstream Repository
+
+The official Chipathon files were cloned from:
+
+[sscs-ose/sscs-chipathon-2026](https://github.com/sscs-ose/sscs-chipathon-2026)
+
 ## Project Structure
 
 ```text
@@ -29,7 +35,7 @@ This repository contains the working files for my SSCS Chipathon 2026 project. I
 
 ## Directory Guide
 
-- `2026-sscs-chipathon/` - Official SSCS Chipathon 2026 files, examples, resources, and documentation.
+- `2026-sscs-chipathon/` - Official SSCS Chipathon 2026 files, examples, resources, and documentation cloned from [sscs-ose/sscs-chipathon-2026](https://github.com/sscs-ose/sscs-chipathon-2026).
 - `Design_Files/IC Design/Schematic/` - IC schematics, symbols, design notes, and related source files.
 - `Design_Files/IC Design/Layout/` - IC layout files, layout exports, DRC/LVS notes, and verification outputs.
 - `Design_Files/PCB Design/Schematic/` - PCB schematic files, component notes, and design documentation.
@@ -74,4 +80,3 @@ Inside Docker, the shared design folder is:
 | PCB layout | Not started | Add board files and checks when available. |
 | PCB simulation | Not started | Save simulation outputs in `Measurement_Results/PCB_Simulation/`. |
 | Measurement | Not started | Save lab results in `Measurement_Results/Test_Measurement/`. |
-
