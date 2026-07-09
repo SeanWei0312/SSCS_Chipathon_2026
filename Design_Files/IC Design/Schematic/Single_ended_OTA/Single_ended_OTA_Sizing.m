@@ -1,4 +1,4 @@
-%% single_ended_2stage_ota_sizing.m
+%% Single_ended_OTA_Sizing.m
 % 2-stage Miller compensated single-ended OTA sizing
 %
 % Topology assumed:
@@ -26,10 +26,10 @@ clear; clc;
 
 VDD = 3.3;          % V
 
-GBW_MHz  = 10;       % MHz
+GBW_MHz  = 10;      % MHz
 Cc_pF    = 2;       % pF
 CL_pF    = 10;      % pF
-Ibias_uA = 40;     % uA, current through M8
+Ibias_uA = 40;      % uA, current through M8
 
 % -------------------------
 % M1, M2 PMOS input pair
@@ -373,9 +373,4 @@ result_table = table(device, role, Id_uA, gm_uS, gds_uS, ro_kohm, ...
 
 disp(' ');
 disp(result_table);
-
-%% Optional: save result to CSV
-writetable(result_table, 'single_ended_ota_sizing_results.csv');
-
-fprintf('\nSaved result table to: single_ended_ota_sizing_results.csv\n');
 fprintf('============================================================\n\n');
