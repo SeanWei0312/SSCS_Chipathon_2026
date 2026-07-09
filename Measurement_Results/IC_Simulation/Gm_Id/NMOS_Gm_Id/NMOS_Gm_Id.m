@@ -2,7 +2,6 @@ clear; clc; close all;
 
 %% User settings and output paths
 baseDir = "/Users/sean/Documents/GitHub/ECG_Acquisition_IC/Measurement_Results/IC_Simulation/Gm_Id/NMOS_Gm_Id";
-outCsv  = fullfile(baseDir, "nmos_gmid_all_results.csv");
 plotDir = fullfile(baseDir, "Plots");
 terminalTablePath = fullfile(baseDir, "nmos_gmid_terminal_table.txt");
 
@@ -146,22 +145,8 @@ for k = 1:numel(files)
 
 end
 
-%% Save combined CSV and select the requested VDS slice
+%% Select the requested VDS slice
 allData = sortrows(allData, ["L_um", "VDS_V", "VGS_V"]);
-csvData = allData(:, ["L_um", ...
-                      "W_um", ...
-                      "VGS_V", ...
-                      "VDS_V", ...
-                      "Id_per_W_uA_per_um", ...
-                      "fT_Hz", ...
-                      "gm_Id_1_per_V", ...
-                      "gm_gds", ...
-                      "intrinsic_gain_dB", ...
-                      "main_branch"]);
-writetable(csvData, outCsv);
-
-fprintf("\nSaved CSV:\n%s\n", outCsv);
-fprintf("Total points saved: %d\n", height(allData));
 
 vdsList = unique(allData.VDS_V);
 [~, idxVDS] = min(abs(vdsList - targetVDS));
